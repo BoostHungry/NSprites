@@ -16,7 +16,7 @@ namespace NSprites
         /// <summary>System's state with all necessary data to pass to <see cref="RenderArchetype"/> to update</summary>
         internal SystemData SystemData;
         
-        internal static Bounds DefaultBounds => new (Vector3.zero, Vector3.one * 1000f);
+        internal static Bounds DefaultBounds => new (Vector3.one * 5000, Vector3.one * 10000f);
 
         internal void Dispose()
         {
